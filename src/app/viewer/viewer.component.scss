@@ -1,0 +1,12 @@
+:host {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+div {
+    display: flex;
+    padding: 8px;
+    border-radius: 8px;
+    text-wrap: nowrap;
+}

@@ -1,0 +1,7 @@
+@if (holder) {
+@for (item of holder.items; track $index) {
+<div [style.background-color]="item.color">
+    {{item.text}}
+</div>
+}
+}
